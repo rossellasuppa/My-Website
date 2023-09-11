@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Mukta, Arial, Helvetica, sans-serif;
+}
+
+.header-container {
+    position: relative;
+    width: 100%;
+    background-color: white;
+}
+
+.header-nome {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Rossella {
+    font-family: Inspiration, Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    padding-right: 5px;
+}
+
+.menu-contenitore{
+  width: 100%;
+  height: 100px;
+}
+
+.header-menu {
+    width: 100%;
+    height: 50%;
+    background-color: #F2D3BC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: inline; /* per avere lista non in colonna */
+    font-size: 20px;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+    padding: 0 40px 0 40px;
+    transition: font-size 0.3s ease-in-out, color 0.3s linear;
+}
+
+.a:hover {
+    font-size: 40px;
+    color: white;
+}
+
+.header-social {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 10;
+}
+
+.header-social a {
+    padding: 10px 40px 0 40px;
+}
+
+.header-social img {
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.header-social img:hover {
+    height: 40px;
+    width: 40px;
+}
+
+.home {
+  display: flex;
+    background-color: #BCDBF2;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.home img {
+  width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 650px;
+}
+
+.slideshow {
+    width: 100%;
+    height: 200px;
+    background-color: #F2D3BC;
+    font-size: 150px;
+    font-weight: bold;
+    font-family: Inspiration, Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mi-presento {
+    width: 100%;
+    height: 620px;
+    background-color: #BCDBF2;
+    display: flex;
+}
+
+.sez-img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.sez-img img {
+    max-width: 650px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sez-testo {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 35px;
+    padding: 30px;
+    line-height: 40px;
+    min-width: 600px;
+}
+
+.sez-testo h2 {
+    font-family: Inspiration, Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    color: #e4c0a8;
+    padding: 30px;
+    text-align: center;
+}
+
+.sez-testo img {
+    padding-top: 30px;
+}
+
+.round-image-container {
+    text-align: center;
+    font-family: Inspiration, Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-color: #F2D3BC;
+    padding-right: 20px;
+}
+
+.img-container {
+    width: 80%;
+    height: 300px;
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border: 4px outset #F2D3BC;
+}
+
+.titoloCerchi{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.round-image {
+    width: 20%;
+    height: 80%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 25px;
+    border: 4px outset #F2D3BC;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.mi-presento2 {
+    padding: 30px 20px 30px 20px;
+    width: 100%;
+    height: 600px;
+    background-color: #BCDBF2;
+    display: flex;
+}
+
+.mi-presento2 p{
+    font-size: 35px;
+    padding: 60px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 250px;
+}
+
+.footer-div1 {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: Inspiration, Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-div2 {
+    width: 100%;
+    height: 170px;
+    display: flex;
+}
+
+.footer-menu {
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-menu a {
+    padding: 0 20px 0 20px;
+    color: white;
+    text-decoration: none;
+    transition: font-size 0.3s ease-in-out, color 0.5s linear;
+}
+
+.footer-menu a:hover {
+    font-size: 40px;
+    color: #F2D3BC;
+}
+
+.footer-menu ul {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.footer-social {
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone {
+    width: 40%;
+    height: 50px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.icone a {
+    text-decoration: none;
+    margin: 20px;
+}
+
+.icone img {
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.icone img:hover {
+    width: 50px;
+    height: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 10px; /* Larghezza della scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Colore dello sfondo della track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Colore del thumb (il cursore) */
+    border-radius: 5px; /* Bordo arrotondato */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Colore del thumb durante il passaggio del mouse */
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 960px) {
+    .nav {
+        display: none; /* Nasconde il menu inizialmente */
+    }
+
+    .nav.show {
+        display: inline; /* Mostra il menu quando è attivo */
+        position: relative;
+    }
+
+    .a {
+        padding: 0 10px 0 10px;
+        font-size: 20px;
+    }
+
+    .a:hover {
+      font-size: 30px;
+    }
+
+    .header-menu.show2{
+      transition: height 0.5s;
+    }
+
+    .header-menu.show2:hover{
+      height: 100px;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .bar {
+        width: 15px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px 0;
+        font-size: 10px;
+        transition: font-size 0.3s ease-in-out, color 0.3s linear;
+    }
+
+    .mi-presento {
+      position: static;
+      display: block;
+        height: auto;
+        z-index: 10;
+    }
+
+    .sez-img,
+    .sez-testo {
+        width: 100%;
+        height: auto;
+        min-width: 0px;
+    }
+
+    .sez-testo {
+        font-size: 28px;
+        padding: 20px;
+        line-height: 32px;
+    }
+
+    .sez-testo h2 {
+        font-size: 60px;
+        padding: 20px;
+    }
+
+    .sez-img img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .slideshow {
+        font-size: 80px;
+        height: 120px;
+    }
+
+    .home {
+        height: auto;
+    }
+
+    .round-image-container {
+        height: auto;
+        flex-direction: column;
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .img-container {
+        width: 80%;
+        height: auto; /* Altezza automatica per adattarsi al contenuto */
+        margin-top: 20px; /* Aggiungi uno spazio tra le immagini */
+        flex-direction: column;
+    }
+
+    .round-image {
+        margin: 10px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .mi-presento2 {
+        padding: 15px 10px 15px 10px;
+        height: auto;
+    }
+
+    .mi-presento2 p{
+        font-size: 20px;
+        padding: 30px;
+        line-height: 25px;
+    }
+
+    .mi-presento2 img {
+        width: 10%;
+    }
+
+    .footer-div1 {
+        font-size: 16px; /* Riduci la dimensione del testo per dispositivi più piccoli */
+    }
+
+    .footer-menu a {
+        padding: 0 10px 0 10px; /* Riduci il padding tra i link nel menu */
+    }
+
+    .footer-menu ul {
+        padding-left: 10px; /* Riduci il padding sinistro del menu */
+        padding-right: 10px; /* Riduci il padding destro del menu */
+    }
+
+    .icone  {
+        width: 60%;
+    }
+
+    .icone a {
+        margin: 5PX;
+    }
+}

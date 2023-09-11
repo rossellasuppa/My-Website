@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact-me</title>
+
+    <meta property="og:title" content="Sito Personale Rossella Suppa">
+    <meta property="og:description" content="Docente di chimica e aspirante programmatrice, in questo sito troverai informazioni
+    su Rossella, il suo curriculum, i suoi lavori e link utili per contattarla.">
+    <meta property="og:image" content="assets/img/presentazione.jpeg">
+    <meta property="og:url" content="file:///Users/rossellasuppa/Desktop/START2IMPACT/PROGETTO%20SITO%20PERSONALE/Secondo%20progetto/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Il Mio Sito">
+    <meta property="og:locale" content="it_IT">
+
+    <link rel="icon" type="image" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/contatti.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inspiration">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mutka">
+</head>
+
+<body>
+  <header class="header-container">
+        <div class="header-nome">
+            <h1 class="Rossella">Rossella Suppa</h1>
+            <img src="assets/img/favicon.png" alt="logo" width="80" height="80"/>
+        </div>
+
+        <div class="menu-contenitore">
+            <div class="header-menu">
+                <div class="menu-icon">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+
+                <ul class="nav">
+                    <li class="menu"><a href="index.html" class="a" target="_blank">Home</a></li>
+                    <li class="menu"><a href="curriculum.html" class="a" target="_blank">CV</a></li>
+                    <li class="menu"><a href="portfolio.html" class="a" target="_blank">Portfolio</a></li>
+                    <li class="menu"><a href="contatti.html" class="a" target="_blank">Contact Me</a></li>
+                </ul>
+            </div>
+
+            <div class="header-social" >
+                <a href="https://instagram.com/rossella.suppa?igshid&#61;MzRlODBiNWFlZA&#61;&#61;" target="_blank">
+                    <img src="assets/img/instagram.png" alt="instagram" width="30" height="30"/>
+                </a>
+                <a href="https://www.linkedin.com/in/rossella-suppa-812730290/" target="_blank">
+                    <img src="assets/img/linkedin.png" alt="linkedin" width="30" height="30"/>
+                </a>
+                <a href="https://github.com/rossellasuppa" target="_blank">
+                    <img src="assets/img/github.png" alt="github" width="30" height="30"/>
+                </a>
+            </div>
+        </div>
+  </header>
+
+    <div class="parte-centrale">
+
+        <form class="form" id="form">
+            <h2>&#x263d; CONTATTAMI &#x263e;</h2>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" required><br>
+
+            <label for="messaggio">Messaggio:</label><br>
+            <textarea id="messaggio" name="messaggio" placeholder="scrivi il tuo messaggio" required></textarea><br>
+
+            <input type="submit" value="Invio" id="button">
+        </form>
+
+
+        <script src="assets/js/form.js"></script>
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+        <script type="text/javascript">
+        emailjs.init('UHQ4G5CTjurPww3In')
+        </script>
+
+        <div class="immagine">
+            <img src="assets/img/contatti.jpg" alt="io al mare">
+        </div>
+    </div>
+
+    <div class="email">
+        <p><strong>oppure scrivimi una <a href="mailto:rossella.suppa.91@gmail.com">email</strong></a></p>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-div1">
+            <h1><strong>&#x263d; Rossella Suppa &#x263e;</strong></h1>
+        </div>
+
+        <div class="footer-div2">
+            <div class="footer-menu">
+                <ul>
+                    <li class="menu"><a href="index.html" target="_blank">Home</a></li>
+                    <li class="menu"><a href="curriculum.html" target="_blank">CV</a></li>
+                    <li class="menu"><a href="portfolio.html" target="_blank">Portfolio</a></li>
+                    <li class="menu"><a href="contatti.html" target="_blank">Contact Me</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <div class="icone">
+                    <a href="https://instagram.com/rossella.suppa?igshid&#61;MzRlODBiNWFlZA&#61;&#61;" target="_blank">
+                        <img src="assets/img/instagram.png" alt="instagram" width="30" height="30"/>
+                    </a>
+                    <a href="https://it.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank">
+                        <img src="assets/img/linkedin.png" alt="linkedin" width="30" height="30"/>
+                    </a>
+                    <a href="https://github.com/" target="_blank">
+                        <img src="assets/img/github.png" alt="github" width="30" height="30"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/toggleMenu.js"></script>
+</body>
+</html>

@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Mukta, Arial, Helvetica, sans-serif;
+}
+
+.header-container {
+  position: relative;
+    width: 100%;
+    background-color: white;
+}
+
+.header-nome {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Rossella {
+    font-family: Inspiration, Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    padding-right: 5px;
+}
+
+.menu-contenitore{
+  width: 100%;
+  height: 100px;
+}
+
+.header-menu {
+    width: 100%;
+    height: 50%;
+    background-color: #F2D3BC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: inline; /* per avere lista non in colonna */
+    font-size: 20px;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+    padding: 0 40px 0 40px;
+    transition: font-size 0.3s ease-in-out, color 0.3s linear;
+}
+
+.a:hover {
+    font-size: 40px;
+    color: white;
+}
+
+.header-social {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 10;
+}
+
+.header-social a {
+    padding: 10px 40px 0 40px;
+}
+
+.header-social img {
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.header-social img:hover {
+    height: 40px;
+    width: 40px;
+}
+
+.parte-centrale{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #6cb0e3;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #BCDBF2;
+    resize: none;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #BCDBF2;
+}
+
+.immagine {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.immagine img {
+  max-width: 650px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.email {
+    width: 100%;
+    height: 100px;
+    background-color: #F2D3BC;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.email a {
+    text-decoration: underline;
+    color: black;
+    transition: font-size 0.3s ease-in-out, color 0.3s linear;
+}
+
+.email a:hover {
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    height: 250px;
+}
+
+.footer-div1 {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: Inspiration, Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-div2 {
+    width: 100%;
+    height: 170px;
+    display: flex;
+}
+
+.footer-menu {
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-menu a {
+    padding: 0 20px 0 20px;
+    color: white;
+    text-decoration: none;
+    transition: font-size 0.3s ease-in-out, color 0.5s linear;
+}
+
+.footer-menu a:hover {
+    font-size: 40px;
+    color: #F2D3BC;
+}
+
+.footer-menu ul {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.footer-social {
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone {
+    width: 40%;
+    height: 50px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.icone a {
+    text-decoration: none;
+    margin: 20px;
+}
+
+.icone img {
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.icone img:hover {
+    width: 50px;
+    height: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 10px; /* Larghezza della scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Colore dello sfondo della track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Colore del thumb (il cursore) */
+    border-radius: 5px; /* Bordo arrotondato */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Colore del thumb durante il passaggio del mouse */
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .nav {
+      display: none; /* Nasconde il menu inizialmente */
+  }
+
+  .nav.show {
+      display: inline; /* Mostra il menu quando è attivo */
+      position: relative;
+  }
+
+  .a {
+      padding: 0 10px 0 10px;
+      font-size: 20px;
+  }
+
+  .a:hover {
+    font-size: 30px;
+  }
+
+  .header-menu.show2{
+    transition: height 0.5s;
+  }
+
+  .header-menu.show2:hover{
+    height: 100px;
+  }
+
+  .menu-icon {
+      display: block;
+      cursor: pointer;
+  }
+
+  .bar {
+      width: 15px;
+      height: 3px;
+      background-color: #fff;
+      margin: 5px 0;
+      font-size: 10px;
+      transition: font-size 0.3s ease-in-out, color 0.3s linear;
+  }
+
+    .parte-centrale {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .immagine {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .email {
+        font-size: 24px;
+    }
+
+    .footer-div1 {
+        font-size: 16px;
+    }
+
+    .footer-menu a {
+        padding: 0 10px 0 10px;
+    }
+
+    .footer-menu ul {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .icone  {
+        width: 60%;
+    }
+
+    .icone a {
+        margin: 5PX;
+    }
+}
