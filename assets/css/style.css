@@ -135,7 +135,7 @@ body {
 .sez-testo {
     width: 50%;
     height: 100%;
-    text-align: justify;
+    text-align: center;
     font-size: 35px;
     padding: 30px;
     line-height: 60px;
@@ -147,6 +147,7 @@ body {
     font-size: 80px;
     padding: 30px;
     text-align: center;
+    color: #F2D3BC;;
 }
 
 .sez-testo img {
@@ -212,7 +213,7 @@ body {
     font-size: 35px;
     padding: 60px;
     line-height: 60px;
-    text-align: center;
+    text-align: justify;
     height: auto;
 }
 
@@ -336,9 +337,13 @@ body {
     .sez-testo {
         font-size: 25px;
     }
+
+    .sez-testo h2 {
+        font-size: 50px;
+    }
     
     .slideshow {
-        font-size: 80px;
+        font-size: 50px;
     }
 
     .mi-presento2 p {
@@ -346,7 +351,7 @@ body {
     }
 
     .titoloCerchi {
-        font-size: 80px;
+        font-size: 50px;
     }
 }
 
