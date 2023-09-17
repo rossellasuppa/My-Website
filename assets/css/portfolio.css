@@ -246,6 +246,10 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    .Rossella{
+        font-size: 50px;
+    } 
+
     .nav {
         display: none; /* Nasconde il menu inizialmente */
     }
@@ -289,6 +293,7 @@ body {
     .work-in-progress {
         display: flex;
         flex-direction: column;
+        font-size: 25px;
     }
     
     .projects-container {
