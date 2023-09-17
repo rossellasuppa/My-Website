@@ -239,7 +239,13 @@ body {
     background-color: #555; /* Colore del thumb durante il passaggio del mouse */
 }
 
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .project {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
     .nav {
         display: none; /* Nasconde il menu inizialmente */
     }

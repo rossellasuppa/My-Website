@@ -113,7 +113,7 @@ body {
 
 .mi-presento {
     width: 100%;
-    height: 100%;
+    height: auto;
     background-color: #BCDBF2;
     display: flex;
 }
@@ -139,7 +139,6 @@ body {
     font-size: 35px;
     padding: 30px;
     line-height: 60px;
-    min-width: 600px;
 }
 
 .sez-testo h2 {
@@ -213,7 +212,7 @@ body {
     font-size: 35px;
     padding: 60px;
     line-height: 60px;
-    text-align: justify;
+    text-align: center;
     height: auto;
 }
 
@@ -329,33 +328,73 @@ body {
     margin-right: 20px;
 }
 
-@media only screen and (max-width: 768px) {
-    .Rossella{
-        font-size: 50px;
-    } 
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .mi-presento {
+        position: static;
+        display: block;
+        height: auto;
+    }
+
+    .sez-img,
+    .sez-testo {
+        width: 100%;
+        height: auto;
+        min-width: 0px;
+    }
 
     .sez-testo {
-        font-size: 25px;
+        padding: 20px;
+        line-height: 50px;
     }
 
     .sez-testo h2 {
-        font-size: 50px;
-    }
-    
-    .slideshow {
-        font-size: 50px;
+        padding: 20px;
     }
 
-    .mi-presento2 p {
-        font-size: 25px;
+    .sez-img img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .round-image-container {
+        height: auto;
+        flex-direction: column;
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .img-container {
+        width: 80%;
+        height: auto; 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Crea 2 colonne con larghezza uguale */
+        gap: 10px;
+        align-items: center;
+        justify-items: center;
     }
 
     .titoloCerchi {
         font-size: 50px;
     }
+
+    .round-image {
+        margin: 10px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .slideshow {
+        font-size: 500%;
+    }
 }
 
-@media only screen and (min-width: 200px) and (max-width: 960px) {
+@media only screen and (max-width: 768px) {
+    .Rossella{
+        font-size: 50px;
+    } 
+
     .nav {
         display: none; /* Nasconde il menu inizialmente */
     }
@@ -411,13 +450,13 @@ body {
     }
 
     .sez-testo {
-        font-size: 28px;
+        font-size: 25px;
         padding: 20px;
         line-height: 32px;
     }
 
     .sez-testo h2 {
-        font-size: 60px;
+        font-size: 50px;
         padding: 20px;
     }
 
@@ -429,7 +468,7 @@ body {
     }
 
     .slideshow {
-        font-size: 80px;
+        font-size: 50px;
         height: 120px;
     }
 
@@ -451,6 +490,10 @@ body {
         flex-direction: column;
     }
 
+    .titoloCerchi {
+        font-size: 50px;
+    }
+
     .round-image {
         margin: 10px;
         width: 250px;
@@ -463,7 +506,7 @@ body {
     }
 
     .mi-presento2 p{
-        font-size: 28px;
+        font-size: 25px;
         padding: 30px;
         line-height: 25px;
     }
