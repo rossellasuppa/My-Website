@@ -135,7 +135,7 @@ body {
 .sez-testo {
     width: 50%;
     height: 100%;
-    text-align: center;
+    text-align: justify;
     font-size: 35px;
     padding: 30px;
     line-height: 60px;
@@ -145,7 +145,6 @@ body {
 .sez-testo h2 {
     font-family: Inspiration, Arial, Helvetica, sans-serif;
     font-size: 80px;
-    color: #e4c0a8;
     padding: 30px;
     text-align: center;
 }
@@ -331,8 +330,24 @@ body {
 
 @media only screen and (max-width: 768px) {
     .Rossella{
-        font-size: 40px;
+        font-size: 50px;
     } 
+
+    .sez-testo {
+        font-size: 25px;
+    }
+    
+    .slideshow {
+        font-size: 80px;
+    }
+
+    .mi-presento2 p {
+        font-size: 25px;
+    }
+
+    .titoloCerchi {
+        font-size: 80px;
+    }
 }
 
 @media only screen and (min-width: 200px) and (max-width: 960px) {
@@ -443,7 +458,7 @@ body {
     }
 
     .mi-presento2 p{
-        font-size: 20px;
+        font-size: 28px;
         padding: 30px;
         line-height: 25px;
     }
